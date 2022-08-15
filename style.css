@@ -1,0 +1,40 @@
+#capturer {
+    border: 1px dotted #ff895a;
+    width: 350px;
+    height: 300px;
+    margin-top: -300px;
+}
+
+body {
+    background-color: purple;
+}
+ 
+#why {
+    width: 200px;
+    height: 200px;
+}
+
+.my_modals {
+    border: #a76c00 15px solid;
+}
+
+#mwahh {
+    width: 210px;
+    height: 300px;
+    margin-left: -700px;
+}
+
+#wahh {
+    width: 210px;
+    height: 300px;
+    margin-left: 700px;
+}
+
+#captured {
+    border: #571f0e 10px solid;
+}
+
+#bad {
+    width: 100%;
+    height: 100px;
+}

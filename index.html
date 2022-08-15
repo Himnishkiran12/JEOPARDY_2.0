@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>GUESS THE PERSON!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+ 
+<body>
+    <div class="container">
+
+        <center>
+
+            <br><br>
+            <img id="bad" src="HEHEHE.png">
+            <p style="font-size: 22px; font-family: Cascadia code;">THIS MODEL WILL HAVE TO GUESS THESE PEOPLE:- </p>
+            <div class="my_modals"><b>
+                <br>ME (HIMNISH)<br>
+                <hr>
+                <br>FATHER (SHASHIKIRAN)<br>
+                <hr>
+                <br>MOTHER (ASHWINI)<br>
+                <hr>
+                </b>
+            </div><img id="why" src="man.png"> <br><br><br>
+
+            <label style="color: black;">WEBCAM VIEW:- </label>
+            <br><span>
+            <img id="mwahh" src="will-smith.png">
+            <div id="capturer"></div><br><br><br>
+</span>
+            <div id="displayer"></div><br><br>
+
+            <button id="take_da_image" onclick="snapshot()" class="btn btn-info">TAKE THE SNAPSHOT</button><br><br>
+            <button id="Identify_da_button" onclick="check()" class="btn btn-success">IDENTIFY THE IMAGE</button><br><br>
+
+            <p style="font-size: 22px;">OBJECT:- <span id="da_object"></span></p>
+            <p style="font-size: 22px;">ACCURACY:- <span id="da_accuracy"></span></p>
+        </center>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
